@@ -6,7 +6,7 @@ function App() {
 
   return (
     <>
-      <div className="flex w-full flex-col justify-center items-center">
+      <div className="flex p-5  overflow-hidden w-full flex-col justify-center items-center">
         <About/>
         <PreviewPDF/>
         <Toaster position="top-center"/>

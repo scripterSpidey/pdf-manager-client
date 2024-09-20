@@ -3,7 +3,7 @@ import React from 'react'
 
 type AppButtonProps = {
   text: string,
-  click: () => void;
+  click?: () => void;
   className?: string
 }
 
